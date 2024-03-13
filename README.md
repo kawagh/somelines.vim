@@ -10,3 +10,20 @@ On target line,
 :Sisl "Sisl is abbreviation of `SplitIntoSomeLines`.
 ```
 
+### example
+
+#### input
+
+```
+oneline-long-command split --example --parameter many --format somelines plugin
+```
+
+#### output
+
+```
+oneline-long-command split \
+--example \
+--parameter many \
+--format somelines \
+plugin
+```
