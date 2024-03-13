@@ -1,5 +1,4 @@
 function! SplitIntoSomeLines()
-    let cursor_line_pos = line(".")
     let current_line = getline(".")
     let tokens = split(current_line, " ")
     let result_lines = []
